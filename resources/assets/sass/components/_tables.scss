@@ -1,0 +1,13 @@
+td.status {
+  text-align: right;
+}
+
+tr.ticket {
+  cursor: pointer;
+
+  &:hover {
+    td {
+      color: $brand-primary;
+    }
+  }
+}
